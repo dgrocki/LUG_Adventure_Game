@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "Enter the key: "
+
+read password
+
+if [ "$PWD" == "/home" ]
+then
+	if [ "$password" == "open" ] 
+	then
+		echo "The first door has been opened!"
+		cd the_first_door
+		/room1
+	else
+		echo "The first door is still locked shut, you can look inside but will see nothing"
+	fi
+elif [ "$PWD" == "/home/the_first_door" ]
+then
+	if [ "$password" == password ] 
+	then
+		echo "The second door has been opened!"
+		cd the_second_door
+	else
+		echo "The second door is still locked shut, you can look inside but will see nothing"
+	fi
+else
+	echo "There is no door to unlock here"
+fi

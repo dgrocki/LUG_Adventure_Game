@@ -1,0 +1,12 @@
+#!/bin/bash
+mkdir the_second_door
+mkdir room1
+touch room1/nope
+touch room1/tryagain
+mkdir room2
+touch room2/found_the_key
+touch room2/look_in_room3
+touch room2/.the_key_is_password
+mkdir room3
+touch room3/keep_looking
+touch room3/the_key_is_HIDDEN

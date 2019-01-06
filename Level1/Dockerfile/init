@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+cd /home
+cat /intro.txt
+mkdir the_first_door
+bash
