@@ -5,4 +5,5 @@ cat /intro.txt
 mkdir the_first_door
 read -p "Press Enter to Continue..."
 cat /tutorial1.txt | less
+clear
 
