@@ -1,3 +1,5 @@
 ----------Level 1----------
 
-You open you eyes and are surrounded by darkness. In the far distance you see a small flashing light. Blah blah blah
+You open you eyes and are surrounded by darkness. You are in the terminal. The terminal is the only way you can communicate with the computer now. Although dark and ominous, the terminal is capable of doing everything you can do with a graphical interface (think Windows or MacOS).
+
+

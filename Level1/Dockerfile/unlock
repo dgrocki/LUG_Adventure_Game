@@ -9,8 +9,7 @@ then
 	if [ "$password" == "open" ] 
 	then
 		echo "The first door has been opened!"
-		cd the_first_door
-		/room1
+		. /room1
 	else
 		echo "The first door is still locked shut, you can look inside but will see nothing"
 	fi
