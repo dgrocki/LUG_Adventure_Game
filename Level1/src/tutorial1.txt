@@ -1,0 +1,50 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+							Tutorial 1: pwd, ls, and cd 
+
+# NOTE: Before executing any of the steps below, read the entire lesson!
+
+# USE ARROW KEYS TO SCROLL THROUGH TUTORIAL
+
+1. The pwd command can be run at any time, giving you an absolute path 
+telling you where you currently are. pwd stands for "print working directory". 
+
+2. The command 'ls' is one of the most useful. ls lists all of the files and 
+directories at your current location. There are several different situations 
+where you can use use ls, as well as several flags that give additional information 
+about the files and directories listed.
+
+3. First, ls can be used by itself to list any files and/or directories that are 
+present in your current working directory. 
+
+4. You can also run ls with a directory as an argument. This will list all the files 
+and subdirectories within that directory. 
+
+	e.g. ls <directory>
+
+5. ls can also be run with different flags. We will discuss: -l and -a 'ls -l' 
+displays a longer version of the ls output, including more information about each 
+file and directory present.
+
+6. Another flag is the -a flag. 'ls -a' will list any hidden files or directories. 
+Hidden files and directories are preceded with a '.' 
+
+	e.g. .hidden_file
+
+7. The last command for this tutorial is 'cd'. cd stands for "change directory". 
+By itself, cd will by default bring you back to your home directory. 
+
+8. cd also takes an argument. When given a directory (that exists in your current 
+working directory) as an argument, it will move you to that directory. 
+
+	e.g. cd <directory>
+
+9. 'cd ..' takes you up a directory (back in your path!). This dot pattern can be 
+repeated multiple times, separated by a '/' to go up as many directories as you want.
+
+	e.g. cd ../../../ will take you 3 directories up
+
+10. Congrats! You are now done with tutorial 1. Now you have the basic tools you 
+need to begin exploring. Now go forth and adventure!
+
+# TYPE 'q' TO QUIT TUTORIAL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
