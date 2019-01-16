@@ -9,7 +9,9 @@ then
 	if [ "$password" == "open" ] 
 	then
 		echo "The first door has been opened!"
+		cd the_first_door
 		. /room1
+		echo "y" > /variables/first_door
 	else
 		echo "The first door is still locked shut, you can look inside but will see nothing"
 	fi

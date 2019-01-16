@@ -1,0 +1,1 @@
+Now that you have learned your first commands, try to find the key to unlock the next door! Once you have found it, run the unlock command and enter the key.

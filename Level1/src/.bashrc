@@ -1,8 +1,8 @@
 function cd() {
   command cd "$@" || return
-
-  if [[ $PWD == "/home/the_first_door" ]]
+  first_door=`cat /variables/first_door`
+  if [[ $PWD == "/home/the_first_door" && "$first_door" == "y" ]]
   then
-	/room2
+	/puzzle1.sh
   fi
 }
